@@ -739,6 +739,18 @@ main {
   padding: 16px 0;
 }
 
+@media (max-width: 768px) {
+  .footer {
+    padding: 8px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 6px 0;
+  }
+}
+
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
@@ -748,6 +760,18 @@ main {
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .footer-content {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-content {
+    padding: 0 12px;
+  }
+}
+
 .footer-brand {
   display: flex;
   align-items: center;
@@ -755,6 +779,20 @@ main {
   color: var(--muted);
   font-size: 14px;
   font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .footer-brand {
+    gap: 8px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-brand {
+    gap: 6px;
+    font-size: 12px;
+  }
 }
 
 .brand-text {
@@ -786,6 +824,22 @@ main {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+@media (max-width: 768px) {
+  .discord-link {
+    gap: 6px;
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .discord-link {
+    gap: 4px;
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+}
+
 .discord-link:hover {
   color: var(--accent);
   background: rgba(255, 255, 255, 0.1);
@@ -794,6 +848,18 @@ main {
 
 .discord-link i {
   font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .discord-link i {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .discord-link i {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 480px) {
