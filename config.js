@@ -8,16 +8,17 @@ window.PROFILE_CONFIG = {
       speed: 28
     },
     theme: {
-      primary: "#6c5ce7",
-      accent: "#00d1ff",
-      text: "#f6f7fb",
-      muted: "#cfd3e3",
+      primary: "#ffffff",
+      accent: "#ffc0cb",
+      secondary: "#f0f0f0",
+      text: "#ffffff",
+      muted: "#e8e8e8",
     },
   },
   user: {
-    displayName: "Aya",
-    avatar: "./assets/avatar.png",
-    banner: "./assets/banner.png",
+    displayName: "⌯ ˹ᴀʏᴀ˼ ❀",
+    avatar: "./avatar.png",
+    banner: "./banner.png",
     roles: [
       "Designer",
       "Quoter",
@@ -33,11 +34,11 @@ window.PROFILE_CONFIG = {
   },
   dynamic: {
     discord: {
-      enabled: true,
-      userId: "286233015837917195",
+      enabled: false,
+      userId: "",
       sourcePriority: ["japi", "lanyard"],
       refreshMs: 10000,
-      overrideDisplayName: true,
+      overrideDisplayName: false,
       imageSizes: { avatar: 512, banner: 2048 },
     },
   },
