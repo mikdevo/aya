@@ -151,8 +151,9 @@ main {
     padding: 12px;
     align-items: center;
     justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100vh;
   }
 }
 
@@ -161,9 +162,9 @@ main {
     padding: 8px;
     align-items: center;
     justify-content: center;
-    padding-top: 5px;
-    padding-bottom: 25px;
-    min-height: 100vh;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 100vh;
   }
 }
 
@@ -741,15 +742,10 @@ main {
 
 @media (max-width: 768px) {
   .footer {
-    padding: 8px 0;
+    display: none;
   }
 }
 
-@media (max-width: 480px) {
-  .footer {
-    padding: 6px 0;
-  }
-}
 
 .footer-content {
   max-width: 1200px;
@@ -935,12 +931,5 @@ main {
   .profile-card {
     margin: 0 auto;
     max-width: calc(100vw - 16px);
-    transform: translateY(-10px);
-  }
-}
-
-@media (max-width: 768px) and (min-width: 481px) {
-  .profile-card {
-    transform: translateY(-5px);
   }
 }
